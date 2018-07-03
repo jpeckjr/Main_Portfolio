@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #666666;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
 
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="https://www.linkedin.com/in/joseph-peck-9bab5315b/">Joe Peck</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>My Portfolio</h1>      
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+  <h1>Some of My Work!</h1><br>
+  <div class="row">
+    <div class="col-sm-3 card" style="width:400px;">
+      <img src="images/Presidentalhangman.jpeg" class="img-responsive card-img-top" style="width:100%" alt="President">
+     <h2 class="card-title">Hangman</h2>
+     <a href="https://jpeckjr.github.io/Word-Guess-Game/" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Try it out!</a>
+    </div>
+       <div class="col-sm-3 card" style="width:400px"> 
+      <img src="images/TriviaGame.jpeg" class="img-responsive card-img-top" style="width:100%" alt="Trivia">
+      <h2 class="card-title">Trivia Game</h2>
+      <a href="https://jpeckjr.github.io/TriviaGame/" class="btn btn-secondary btn-lg active" role="button" aria-disabled="true">Try it out!</a>
+    </div>
+    <div class="col-sm-3 card" style="width:400px"> 
+      <img src="images/TrainSchedule.jpeg" class="img-responsive card-img-top" style="width:100%" alt="Train Schedule">
+      <h2 class="card-title">Train Schedueler</h2>
+      <a href="https://jpeckjr.github.io/TrainGame/" class="btn btn-secondary btn-lg active" role="button" aria-disabled="true">Try it out!</a>
+    </div>
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">    
+    <div class="row">
+      <div class="col-sm-3 card" style="width:400px;">
+        <img src="images/StarWarsGame.jpeg" class="img-responsive card-img-top" style="width:100%" alt="Death Star">
+       <h2 class="card-title">StarWars Game</h2>
+       <a href="https://jpeckjr.github.io/unit-4-game/" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Try it out!</a>
+      </div>
+      <div class="col-sm-3 card" style="width:400px"> 
+        <img src="images/GigfyApp.jpeg" class="img-responsive card-img-top" style="width:100%" alt="Actor Search">
+        <h2 class="card-title">Giphy API</h2>
+        <a href="https://jpeckjr.github.io/GifTastic/" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Try it out!</a>
+      </div>
+      <div class="col-sm-3 card" style="width:400px"> 
+        <img src="images/BarTriviaFinder.jpeg" class="img-responsive card-img-top" style="width:100%" alt="Trivia Brew">
+        <h2 class="card-title">Bar Locator/Trivia App</h2>
+        <a href="#" class="btn btn-secondary btn-lg diabled" role="button" aria-pressed="true">Coming Soon!</a>
+    </div>
+  </div><br>
+
+<footer class="container-fluid text-center">
+  <p>copyright ©</p>
+</footer>
+
+</body>
+</html>
